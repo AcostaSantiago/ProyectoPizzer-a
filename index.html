@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pizza Bar</title>
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <img id="header-img" src="https://us.123rf.com/450wm/azindialany/azindialany2007/azindialany200700095/151845247-logo-de-la-casa-de-pizza-dise%C3%B1o-para-bares-restaurantes-pizzer%C3%ADa-volantes-tarjetas-de-men%C3%BA.jpg" alt="Pizza Bar Logo">
+            <div class="logo-text">
+                <h1>Pizza Bar</h1>
+            </div>
+        </div>
+      
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#inicio">Inicio</a></li>
+                <li><a class="nav-link" href="#menu">Menú</a></li>
+                <li><a class="nav-link" href="#nosotros">Sobre nosotros</a></li>
+                <li><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div class="hero">
+            <h2>Bienvenido a Pizza Bar</h2>
+            <p>¡Disfruta de nuestras deliciosas pizzas recién horneadas!</p>
+            <a href="#menu" class="cta-button">Ver Menú</a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Nuestro Menú</h2>
+        <!-- Agrega aquí tus diferentes pizzas y sus precios -->
+        <div class="menu-item">
+            <img src="https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg" alt="Pizza Margarita">
+            <h3>Pizza Margarita</h3>
+            <p>Ingredientes: Queso mozzarella, tomate, albahaca.</p>
+            <p class="price">$12</p>
+        </div>
+        <div class="menu-item">
+            <img src="https://www.sabervivirtv.com/medio/2023/02/09/9pizzahuerta_00000000_9152bc46_230209105053_1280x720.jpg" alt="Pizza Pepperoni">
+            <h3>Pizza Pepperoni</h3>
+            <p>Ingredientes: Queso mozzarella, pepperoni, tomate.</p>
+            <p class="price">$14</p>
+        </div>
+    </section>
+    
+    <section id="receta">
+        <h2>Cómo hacer una pizza con pepperoni</h2>
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Ih8H0cSQsgA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre nosotros</h2>
+        <p>Somos una pizzería familiar con más de 20 años de experiencia en la preparación de pizzas de alta calidad. Utilizamos ingredientes frescos y ofrecemos una amplia variedad de sabores para satisfacer todos los gustos.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Estamos ubicados en la Calle Principal, Número 123, Ciudad Pizza.</p>
+        <p>Puedes comunicarte con nosotros al teléfono: 123-456-7890 o enviar un correo electrónico a info@pizzabar.com</p>
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+            <label for="email">Ingresa tu correo electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required>
+            <input type="submit" id="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Pizza Bar. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
