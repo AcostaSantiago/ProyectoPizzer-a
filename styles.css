@@ -1,18 +1,15 @@
-/* Estilos generales */
 
-/* Estilos para pantallas grandes */
 @media screen and (min-width: 768px) {
-    /* Estilos específicos para pantallas grandes */
-    /* Puedes colocar aquí los estilos para pantallas grandes */
+
+
   }
   
-  /* Estilos para dispositivos móviles */
+
   @media screen and (max-width: 767px) {
-    /* Estilos específicos para dispositivos móviles */
-    /* Puedes colocar aquí los estilos para dispositivos móviles */
+
   }
   
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -34,7 +31,7 @@ a {
     color: #333;
 }
 
-/* Estilos específicos para la página */
+
 #header {
     background-color: #F5DEB3;
     padding: 20px;
